@@ -1,0 +1,161 @@
+@media screen and (max-width:1400px){
+    #profile{
+        height: 80vh;
+        margin-bottom:6vh ;
+    }
+    .about-container{
+        flex-wrap: wrap;
+    }
+    #Contact,
+    #Projects {
+      height: fit-content;
+    }
+}
+
+
+
+@media screen and (max-width:1200px){
+    #desktop-nav{
+        display: none;
+    }
+
+    #hamburger-nav{
+        display: flex;
+        flex: 1;
+        /* justify-content: space-around; */
+    }
+
+    #profile{
+        margin-top: 0rem;
+    }
+     
+    section,
+    .section-container{
+        height: fit-content;
+        display: block;
+    }
+
+
+
+    #about{
+        margin-top: 6 rem;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    #Experience,
+    .experience-details-container{
+        margin-top: 2rem;
+    }
+
+    #profile,
+    .section-container{
+        display: block;
+    }
+
+    .profile-text{
+        margin-bottom: 2rem;
+        height: fit-content;
+    }
+
+    section{
+        margin: 5.5%;
+    }
+
+    .profile-pic{
+        height: 275px;
+        width: 275px;
+        margin: 0 auto 2rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    
+
+
+    #profile{
+        height: 83vh;
+        margin-bottom: 0;
+        margin-top: -4rem;
+    }
+
+    article{
+        font-size: 1rem;
+    }
+
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+        justify-content: center;
+    }
+    .nav-link{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 0.5rem;
+    }
+
+    .about-container,
+    .contact-info-upper-container,
+    .btn-container{
+        flex-wrap: wrap;
+        margin: 5.5%;
+    }
+    .contact-info-container p,
+    .nav-link a{
+        font-size: 1rem;
+    }
+    .nav-link-container{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .experience-sub-title{
+        font-size: 1.25rem;
+    }
+
+
+    .nav-link a{
+        flex-direction: column;
+        grid-area: 0.5rem;
+        text-align: center;
+    }
+    .Logo{
+        font-size: 1.5rem;
+    }
+
+    .profile-pic{
+        width: auto;
+        height: 40vh;
+        justify-content: center;
+        position: relative;
+        z-index: -1;
+    }
+
+    footer p{
+        margin: 2rem auto;
+    }
+
+    .about-pic{
+        height: 330px;
+        display: block;
+        margin: 6px auto;
+        width: 278px;
+    
+    }
+
+    .section-container-p2{
+        font-size: 1.75rem;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .text-container{
+        text-align: justify;
+        margin: 5.5%;
+    }
+}
